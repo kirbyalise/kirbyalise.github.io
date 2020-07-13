@@ -1,0 +1,17 @@
+
+<!-- <html>
+  <head>
+    <title>Kirby Thomson</title>
+    KIRBY LOGO 
+  </head>
+  <body>
+    <h1>Kirby Thomson</h1>
+    <nav>
+      <a href="About.html">About</a>
+      <a href="Projects.html">Projects</a>
+      <a href="Contact Me.html">Contact Me</a>
+  </nav>
+
+  </body>
+</html> -->
+
