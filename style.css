@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap);
+
+:root {
+    --brand: #F2E0D0;
+    --action: #8C3C2A;
+    --white: #ffffff;
+    --base-light: #F2E0D0;
+    --base-dark: #0d0711;
+    --font: #512c23;
+}
+
+    /* CSS Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: var(--font);
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+
+
+/* ### Put next to text ### */
+  img {
+    max-width: 35%;
+    height: auto;
+  }
+
+
+  /* Utilities */
+
+  .display-none {
+    display: none;
+  }
+
+  Components
+
+  .mobile-nav a {
+    text-decoration: none;
+    color: var(--font);
+    display: block;
+    padding: 4px 16px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+/* ###Need more centered### */
+  .hero {
+    background-color: var(--brand);
+    padding: 56px 56px;
+    width: 200%;
+  }
+
+  article {
+    padding: 5px 5px;
+    background-color: var(--base-light);
+    transition: all 0.5s ease;
+  }
+
+  article:hover {
+    filter: contrast(120%)
+  }
+
+  .contact-form {
+    padding: 48px 16px;
+    border-radius: 10px;
+    margin: 5px 10px;
+  }
+
+  .contact-form input, 
+  .contact-form select,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .contact-form input,
+  .contact-form select {
+    margin-bottom: 16px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: var(--action);
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+/*##### Need more centred####*/
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+
+
+  @media (min-width: 768px) {
+
+    .logo {
+      height: 100px;
+    }
+
+    .desktop-nav {
+      display: inline-block;
+    }
+
+    .contact-form form {
+      max-width: 50%;
+      margin: 40px auto;
+    }
+
+  }
