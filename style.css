@@ -12,17 +12,10 @@
     /* CSS Reset */
 
 html {
-    box-sizing: border-box;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     color: var(--font);
     scroll-behavior: smooth;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
   }
   
   h1,
@@ -59,7 +52,7 @@ html {
 
 /* ### Put next to text ### */
   img {
-    max-width: 35%;
+    max-width: 30%;
     height: auto;
   }
 
@@ -83,21 +76,60 @@ html {
     display: none;
   }
 
-/* ###Need more centered### */
   .hero {
     background-color: var(--brand);
+    color: #8C3C2A;
     padding: 56px 56px;
-    width: 200%;
+    font-size: 80px;
+    display:flex;
+  }
+
+  .hero-block {
+    padding: 30px
+  }
+
+  .about-me-img-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  .projects {
+    padding-top: 30px;
   }
 
   article {
     padding: 5px 5px;
-    background-color: var(--base-light);
     transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  article.project h3 {
+    text-align: center; 
+  }
+
+  article.project img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-image {
+    height: auto;
+    width: 100%;
   }
 
   article:hover {
     filter: contrast(120%)
+  }
+
+  .articles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: var(--base-light);
   }
 
   .contact-form {
@@ -155,3 +187,5 @@ html {
     }
 
   }
+
+/* .... */
