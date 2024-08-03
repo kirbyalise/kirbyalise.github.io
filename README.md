@@ -6,15 +6,15 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
+- [x] At least one profile picture
 - [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [x] Functional Contact Form
+- [x] "Projects" section
+- [x] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
+- [x] At least 2 web pages.
 - [ ] Version controlled with Git
 - [ ] Deployed on GitHub pages.
 - [ ] Implements responsive design principles.
@@ -22,7 +22,7 @@
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
+- [x] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 ​
 ### Screenshots
@@ -33,4 +33,4 @@
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
 ####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+![Put a description of your image here](./img/Kirby.jpg)

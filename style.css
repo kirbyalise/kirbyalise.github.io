@@ -4,7 +4,7 @@
     --brand: #F2E0D0;
     --action: #8C3C2A;
     --white: #ffffff;
-    --base-light: #F2E0D0;
+    --base-light: #ffeedf82;
     --base-dark: #0d0711;
     --font: #512c23;
 }
@@ -15,7 +15,7 @@ html {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     color: var(--font);
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
   }
   
   h1,
@@ -24,7 +24,7 @@ html {
   h4,
   h5,
   h6 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif
   }
   
   body,
@@ -33,55 +33,71 @@ html {
   h3,
   ul {
     margin: 0;
-    padding: 0;
+    padding: 0
   }
   
   ol,
   ul {
-    list-style: none;
+    list-style: none
   }
 
   input,
   button,
   textarea,
   select {
-    font: inherit;
+    font: inherit
   }
 
-
-
-/* ### Put next to text ### */
   img {
-    max-width: 30%;
-    height: auto;
+    max-width: 40%;
+    height: auto
   }
 
 
   /* Utilities */
 
   .display-none {
-    display: none;
+    display: none
   }
 
-  Components
+  /* Components */
+
+  body {
+    background-color: var(--base-light);
+  }
 
   .mobile-nav a {
     text-decoration: none;
     color: var(--font);
     display: block;
-    padding: 4px 16px;
+    padding: 4px 16px
   }
 
   .desktop-nav {
-    display: none;
+    display: none
   }
 
   .hero {
     background-color: var(--brand);
-    color: #8C3C2A;
+    color: var(--action);
     padding: 56px 56px;
-    font-size: 80px;
     display:flex;
+    justify-content: space-around;
+  }
+
+  .hero h1 {
+    font-size: 160px;
+  }
+
+  nav {
+    display: flex;
+    margin-left: auto;
+    width: fit-content
+  }
+
+  .nav-link {
+    padding: 5px;    
+    color: var(--base-dark)
   }
 
   .hero-block {
@@ -92,8 +108,76 @@ html {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    padding-top: 10px;
+    padding-top: 10px
   }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .contact-form {
+    padding: 48px 16px;
+    border-radius: 10px;
+    margin: 5px 10px
+  }
+
+  .contact-form form {
+    max-width: 50%;
+    margin: 40px auto;
+  }
+
+  .contact-form input, 
+  .contact-form select,
+  .contact-form textarea {
+    display: block;
+    width: calc(100% - 18px);
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+
+  }
+
+  .contact-form input,
+  .contact-form select {
+    margin-bottom: 16px;
+    display: block;
+    padding: 8px
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: var(--action);
+    color: #F2E0D0;
+    margin-top: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+
+  img.social {
+    height: 100px;
+    width: 100px;
+    max-width:100px;
+    margin-top: 10px
+}
+
+
+
+
+/* projects page */
 
   .projects {
     padding-top: 30px;
@@ -104,6 +188,7 @@ html {
     transition: all 0.5s ease;
     display: flex;
     flex-direction: column;
+    width: 30%;
   }
 
   article.project h3 {
@@ -129,52 +214,16 @@ html {
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
-    background-color: var(--base-light);
-  }
-
-  .contact-form {
-    padding: 48px 16px;
-    border-radius: 10px;
-    margin: 5px 10px;
-  }
-
-  .contact-form input, 
-  .contact-form select,
-  .contact-form textarea {
-    display: block;
-    width: 100%;
-    padding: 8px;
-  }
-
-  .contact-form input,
-  .contact-form select {
-    margin-bottom: 16px;
-    display: block;
-    width: 100%;
-    padding: 8px;
-  }
-
-  .contact-form input[type="submit"] {
-    background-color: var(--action);
-    margin-top: 8px;
-    cursor: pointer;
-  }
-
-/*##### Need more centred####*/
-  .socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color: var(--brand);
   }
 
 
 
 
+  @media (max-width: 768px) {
 
-  @media (min-width: 768px) {
-
-    .logo {
-      height: 100px;
+    .hero h1 {
+      font-size: 80px;
     }
 
     .desktop-nav {
@@ -182,10 +231,14 @@ html {
     }
 
     .contact-form form {
-      max-width: 50%;
-      margin: 40px auto;
+      max-width: unset;
+      margin: unset;
     }
 
   }
 
-/* .... */
+h1.big {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
