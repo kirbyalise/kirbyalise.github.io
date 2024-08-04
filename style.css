@@ -12,7 +12,7 @@
     /* CSS Reset */
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Inter", sans-serif;
     color: var(--font);
     scroll-behavior: smooth
@@ -86,7 +86,11 @@ html {
   }
 
   .hero h1 {
-    font-size: 160px;
+    font-size: 130px;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   nav {
@@ -103,6 +107,11 @@ html {
   .hero-block {
     padding: 30px
   }
+
+  p.shecodes-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
   .about-me-img-text {
     display: flex;
@@ -223,7 +232,7 @@ html {
   @media (max-width: 768px) {
 
     .hero h1 {
-      font-size: 80px;
+      font-size: 75px;
     }
 
     .desktop-nav {
@@ -233,6 +242,11 @@ html {
     .contact-form form {
       max-width: unset;
       margin: unset;
+    }
+
+    img {
+      width: auto;
+      height: auto
     }
 
   }
