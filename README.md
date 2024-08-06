@@ -34,7 +34,7 @@ I added in hover states for my projects boxes to change the contrast when you ho
 ### Screenshots
 
 #### Desktop index.html
-![Desktop](/img/desktophtml.jpeg)!
+![Desktop](./img/desktophtml.jpeg)
 
 #### Desktop projects.html
 ![Desktop](/img/desktopprojects.jpeg)
