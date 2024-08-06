@@ -37,16 +37,16 @@ I added in hover states for my projects boxes to change the contrast when you ho
 ![Desktop](./img/desktophtml.jpeg)
 
 #### Desktop projects.html
-![Desktop](/img/desktopprojects.jpeg)
+![Desktop](./img/desktopprojects.jpeg)
 
 #### Mobile index.html 
 ![Mobile](/img/mobilehtml.jpeg)
 
 #### Mobile projects.html 
-![Mobile](/img/mobileprojects.jpeg)
+![Mobile](./img/mobileprojects.jpeg)
 
 #### Tablet index.html
-![Tablet](/img/tablethtml.jpeg)
+![Tablet](./img/tablethtml.jpeg)
 
 #### Tablet projects.html
 ![Tablet](./img/tabletprojects.jpeg)
