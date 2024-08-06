@@ -1,6 +1,6 @@
 #  Kirby Thomson - Portfolio Task
 ​
-[My portfolio site](kirbyalise.github.io)
+[My portfolio site](https://kirbyalise.github.io)
 ​
 ## Project Requirements
 
@@ -49,9 +49,9 @@ I added in hover states for my projects boxes to change the contrast when you ho
 ![Tablet](/img/tablethtml.jpeg)
 
 #### Tablet projects.html
-![Tablet](/img/tabletprojects.jpeg)
+![Tablet](./img/tabletprojects.jpeg)
 
 #### Hover Contrast 
-![Hover](s/img/hovercontrast.jpg)
+![Hover](./img/hovercontrast.jpg)
 
 Note- I couldn't get screenshots of the cursors but I swear they exist!
