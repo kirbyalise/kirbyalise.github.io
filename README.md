@@ -34,24 +34,24 @@ I added in hover states for my projects boxes to change the contrast when you ho
 ### Screenshots
 
 #### Desktop index.html
-![Desktop] (./img/desktophtml.jpeg)
+![Desktop](/img/desktophtml.jpeg)!
 
 #### Desktop projects.html
-![Desktop] (./img/desktopprojects.jpeg)
+![Desktop](/img/desktopprojects.jpeg)
 
 #### Mobile index.html 
-![Mobile] (./img/mobilehtml.jpeg)
+![Mobile](/img/mobilehtml.jpeg)
 
 #### Mobile projects.html 
-![Mobile](./img/mobileprojects.jpeg)
+![Mobile](/img/mobileprojects.jpeg)
 
 #### Tablet index.html
-![Tablet] (./img/tablethtml.jpeg)
+![Tablet](/img/tablethtml.jpeg)
 
 #### Tablet projects.html
-![Tablet] (./img/tabletprojects.jpeg)
+![Tablet](/img/tabletprojects.jpeg)
 
 #### Hover Contrast 
-![Hover] (./img/hovercontrast.jpg)
+![Hover](s/img/hovercontrast.jpg)
 
 Note- I couldn't get screenshots of the cursors but I swear they exist!
