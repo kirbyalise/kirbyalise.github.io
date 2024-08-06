@@ -1,6 +1,6 @@
 #  your_name_here - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](kirbyalise.github.io)
 ​
 ## Project Requirements
 
@@ -29,7 +29,7 @@ I made a separate projects pages to keep my home page clean and simple with room
 - [x] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 
-I added in hover states for my projects boxes to change the contrast when you hover, to change the cursor when hovering over the project title and the submit button. 
+I added in hover states for my projects boxes to change the contrast when you hover, to change the cursor when hovering over the project titles and arches and the submit button. 
 ​
 ### Screenshots
 > Please include the following:
@@ -38,5 +38,12 @@ I added in hover states for my projects boxes to change the contrast when you ho
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  image_title_goes_here 
-![Put a description of your image here](./img/Kirby.jpg)
+####  Images
+!Desktop HTML(./img/DesktopHTML.jpg)
+!Desktop Projects (./img/DesktopProjects.jpg)
+!Mobile HTML (./img/MobileHTML.jpg)
+!Mobile Projects (./img/MobileProjects.jpg)
+!Tablet HTML (./img/TabletHTML.jpg)
+!Tablet Projects (./img/TabletProjects.jpg)
+!Hover Contrast (./img/HoverContrast.jpg)
+! Note- I couldn't get screenshots of the cursors but I swear they exist!
