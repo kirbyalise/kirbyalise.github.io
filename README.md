@@ -32,18 +32,11 @@ I made a separate projects pages to keep my home page clean and simple with room
 I added in hover states for my projects boxes to change the contrast when you hover, to change the cursor when hovering over the project titles and arches and the submit button. 
 ​
 ### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
-
-####  Images
-!Desktop HTML(./img/DesktopHTML.jpg)
-!Desktop Projects (./img/DesktopProjects.jpg)
-!Mobile HTML (./img/MobileHTML.jpg)
-!Mobile Projects (./img/MobileProjects.jpg)
-!Tablet HTML (./img/TabletHTML.jpg)
-!Tablet Projects (./img/TabletProjects.jpg)
-!Hover Contrast (./img/HoverContrast.jpg)
-! Note- I couldn't get screenshots of the cursors but I swear they exist!
+Desktop HTML(./img/DesktopHTML.jpeg)
+Desktop Projects (./img/DesktopProjects.jpeg)
+Mobile HTML (./img/MobileHTML.jpeg)
+Mobile Projects (./img/MobileProjects.jpeg)
+Tablet HTML (./img/TabletHTML.jpeg)
+Tablet Projects (./img/TabletProjects.jpeg)
+Hover Contrast (./img/HoverContrast.jpg)
+Note- I couldn't get screenshots of the cursors but I swear they exist!
