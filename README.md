@@ -32,11 +32,11 @@ I made a separate projects pages to keep my home page clean and simple with room
 I added in hover states for my projects boxes to change the contrast when you hover, to change the cursor when hovering over the project titles and arches and the submit button. 
 ​
 ### Screenshots
-Desktop HTML(./img/DesktopHTML.jpeg)
-Desktop Projects (./img/DesktopProjects.jpeg)
-Mobile HTML (./img/MobileHTML.jpeg)
-Mobile Projects (./img/MobileProjects.jpeg)
-Tablet HTML (./img/TabletHTML.jpeg)
-Tablet Projects (./img/TabletProjects.jpeg)
-Hover Contrast (./img/HoverContrast.jpg)
+Desktop HTML(./img/desktophtml.jpeg)
+Desktop Projects (./img/desktopprojects.jpeg)
+Mobile HTML (./img/mobilehtml.jpeg)
+Mobile Projects (./img/mobileprojects.jpeg)
+Tablet HTML (./img/tablethtml.jpeg)
+Tablet Projects (./img/tabletprojects.jpeg)
+Hover Contrast (./img/hovercontrast.jpg)
 Note- I couldn't get screenshots of the cursors but I swear they exist!
