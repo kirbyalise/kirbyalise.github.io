@@ -22,7 +22,7 @@ I went for a simple blush aesthetic, making it look elegant and clean (also favo
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
 
-I made a separate projects pages to keep my home page clean and simple with room to expand. I was only able to version control a few times due to my laptop blocking me (thanks Rio!) from pushing to GitHub. I made elements like the title, photo, contact form and projects boxes adaptive for multiple sized screens so they change size. I used semantic HTML to define different parts of my site such as header, footer and nav bar.  
+I made a separate projects pages to keep my home page clean and simple with room to expand. I was only able to version control a few times due to my laptop blocking me  from pushing to GitHub. I made elements like the title, photo, contact form and projects boxes adaptive for multiple sized screens so they change size. I used semantic HTML to define different parts of my site such as header, footer and nav bar.  
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
